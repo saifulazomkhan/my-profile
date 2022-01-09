@@ -90,7 +90,9 @@ footer{
     margin-bottom: 0;
 }
 footer p{
+    margin-top: 300px;
     padding: 10px;
     color: blanchedalmond;
     font-weight: 300;
+
 }
