@@ -4,6 +4,8 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 h1{
     font-size: 50px;
@@ -20,7 +22,8 @@ h1{
     width: 43%;
     padding: 15px;
 }
-a{
+a{  
+    
     padding: 5px;
     border: 1px solid orange;    
     text-decoration: none;
@@ -28,9 +31,14 @@ a{
     border-radius: 5px;
     color: #fff;
     font-weight: 700;
+    
 }
 
 .hulf-right img{
+    width: 100%;
+    
+}
+.hulf-left img{
     width: 100%;
     
 }
@@ -39,4 +47,9 @@ a{
     background-repeat: no-repeat;
   
    
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
